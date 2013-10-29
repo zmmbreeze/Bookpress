@@ -16,14 +16,14 @@
         </header><!-- #branding -->
         <?php } ?>
 
-        <aside id="octocard"></aside>
-        <script>
-        OCTOCARD = {
-          name: 'zmmbreeze',
-          modules: 'base,repos,eventsStatis,orgs'
-        };
-        </script>
-        <script src="http://nodejs.in/octocard/bin/octocard.js"></script>
+        <aside id="octocard">
+            <script>
+            OCTOCARD = {
+              name: 'zmmbreeze',
+              modules: 'base,repos,eventsStatis,orgs'
+            };
+            </script>
+            <script src="http://nodejs.in/octocard/bin/octocard.js"></script>
         <aside>
 
         <aside class="side-rss">
