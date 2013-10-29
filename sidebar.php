@@ -24,7 +24,7 @@
             };
             </script>
             <script src="http://nodejs.in/octocard/bin/octocard.js"></script>
-        <aside>
+        </aside>
 
         <aside class="side-rss">
             <a href="<?php bloginfo( 'rss2_url' ); ?>">RSS</a>
