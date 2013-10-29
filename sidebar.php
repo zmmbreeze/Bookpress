@@ -7,7 +7,7 @@
  */
 ?>
     <div class="side" role="complementary">
-        <?php if (is_single() || is_tag() || !is_category() || is_page()) { ?>
+        <?php if (!is_home()) { ?>
         <header class="header" role="banner">
             <hgroup>
                 <h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
