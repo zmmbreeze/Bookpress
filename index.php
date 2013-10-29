@@ -14,14 +14,12 @@
 
 get_header(); ?>
 <div class="main" role="main">
-    <?php if (!is_single() && !is_tag() && !is_category() && !is_page()) { ?>
     <header class="header" role="banner">
         <hgroup>
             <h1><?php bloginfo( 'name' ); ?></h1>
             <p><?php bloginfo( 'description' ); ?></p>
         </hgroup>
     </header><!-- #branding -->
-    <?php } ?>
 
     <?php if (have_posts()) : ?>
     <ol class="main-articles">
