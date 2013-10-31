@@ -147,6 +147,7 @@ body {
     padding: 0;
 }
 .post .entry-meta {
+    line-height: 16px;
     font-size: 12px;
 }
 .post code {
