@@ -179,12 +179,6 @@ body {
     margin-right: -16px;
     margin-left: -16px;
 }
-.post img {
-    padding: 1px;
-    border: 1px solid #DDD;
-    -webkit-box-shadow: 3px 3px 0 #EFEFEF;
-    box-shadow: 3px 3px 0 #EFEFEF;
-}
 
 
 .side {
